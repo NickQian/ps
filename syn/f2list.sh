@@ -22,3 +22,6 @@ echo "set EMU_PATH $STR_EMU_PATH" >> $fn_out
 
 #------- set global defines for compiler -----------
 
+
+
+
