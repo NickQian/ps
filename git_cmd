@@ -1,0 +1,34 @@
+---------------git clone----------------------------
+git clone https://github.com/xxx/yyy (will creATE FOLDER)
+
+
+---------------- config git ------------------------------
+0) cd ~/ps
+1) git config --global user.name NickQian
+2) git config --global user.email xxxxxx@qq.com
+      git config --list
+
+--- ssh ----
+// gen key
+ssh-keygen -t rsa -C "your-github-email-address@qq.com"
+cd ~/.ssh
+ls  (to see id_rsa id_rsa.pub)
+
+// test ssh
+ssh -T git@github.com
+
+// set git
+git remote set-url origin git@github.com:NickQian/ps.git
+git remote -v
+     origin     git@github.com:NickQian/ps.git (fetch)
+     origin     git@github.com:NickQian/ps.git (push)
+
+--------------- pull & push --------------------------------
+1) git status
+2) git add .
+   (or) git add/rm -u   (add modified file to cache lib)
+3) git status   (check again)
+4) git commit -m "modify" file1 file2 dir1 dir2 (submit modified file to local lib)
+5) git pull  (merge newest remote version to local)
+6) git push(push local lib to remote branch)
+
