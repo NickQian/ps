@@ -1,0 +1,7 @@
+(ACE/CHI-E/AXI) CXL UCIe
+Protocol Layer -->
+               Link Layer -->
+                            Transcanction Layer-->
+                                      Transcanction->Message->Packet->flit->phit
+                                                  DataLink Layer -->
+                                                                   PHY Layer

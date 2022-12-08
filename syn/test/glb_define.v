@@ -1,0 +1,2 @@
+`define FPGA
+`define BUILD_DATE 32'n20210808

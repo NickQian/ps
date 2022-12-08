@@ -1,0 +1,5 @@
+vivado:   (python generate raw list) & (tcl list processing + pr)
+
+synplify: shell script generate *.prj file for synplify.
+
+	2022.12.08

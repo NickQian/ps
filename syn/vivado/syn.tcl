@@ -10,6 +10,23 @@ set Top_Module  fpga_top
 
 set outputDir  <change to your synthesis work dir>
 
+
+# step 0: raw list read in
+list vline
+set fp [open vlist.txt  r]
+while { ![eof $fp]}{
+	gets $fp vline
+}
+
+
+cancat list1  list2 list3
+len=llenth{list1}
+lappend list1 {list to add}
+
+#use string? 
+
+
+
 # step 1: setup design sources and constraints
 
 read_verilog -sv [glob ./hdl/*.v]
